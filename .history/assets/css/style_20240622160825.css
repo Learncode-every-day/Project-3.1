@@ -174,13 +174,12 @@ button {
     align-items: center;
     justify-content: center;
     width: 44px;
-    height: 43px;
+    height: 44px;
     border-radius: 50%;
     background: #83a17d;
 }
 
 .eclip-icon {
     position: absolute;
-    left: -9px;
-    bottom: -8px;
+    left: -10px;
 }

@@ -53,20 +53,6 @@ button {
     line-height: 1.71; /* 171.429% */
 }
 
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 173px;
-    height: 57px;
-    border-radius: 40px;
-    background: var(--bg-color);
-    color: #fff;
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.56; /* 155.556% */
-}
-
 /* ===== Header ===== */
 .header {
     position: sticky;
@@ -113,6 +99,13 @@ button {
     background: var(--bg-color);
 }
 
+.header-action__text {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+}
+
 .separate-line {
     margin-top: -1px;
     width: 100%;
@@ -125,13 +118,12 @@ button {
     );
 }
 
-/* ===== Hero ===== */
+/* ===== Header ===== */
 .hero__content {
     width: 35%;
 }
 
 .hero__heading {
-    margin-top: 103px;
     color: var(--primary-color);
     font-size: 5rem;
     font-weight: 800;
@@ -139,48 +131,8 @@ button {
 }
 
 .hero__desc {
-    margin-top: 20px;
     color: #575d5e;
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.56; /* 155.556% */
-}
-
-.hero__row {
-    margin-top: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.hero-action {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-action__desc {
-    color: var(--primary-color);
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1.67; /* 166.667% */
-}
-
-.play-btn {
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 43px;
-    border-radius: 50%;
-    background: #83a17d;
-}
-
-.eclip-icon {
-    position: absolute;
-    left: -9px;
-    bottom: -8px;
 }

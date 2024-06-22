@@ -153,13 +153,6 @@ button {
     justify-content: space-between;
 }
 
-.hero-action {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .hero-action__desc {
     color: var(--primary-color);
     font-family: Poppins;
@@ -174,13 +167,7 @@ button {
     align-items: center;
     justify-content: center;
     width: 44px;
-    height: 43px;
+    height: 44px;
     border-radius: 50%;
     background: #83a17d;
-}
-
-.eclip-icon {
-    position: absolute;
-    left: -9px;
-    bottom: -8px;
 }

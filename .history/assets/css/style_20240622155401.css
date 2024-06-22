@@ -125,7 +125,7 @@ button {
     );
 }
 
-/* ===== Hero ===== */
+/* ===== Header ===== */
 .hero__content {
     width: 35%;
 }
@@ -147,40 +147,15 @@ button {
 }
 
 .hero__row {
-    margin-top: 42px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.hero-action {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-action__desc {
-    color: var(--primary-color);
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1.67; /* 166.667% */
-}
-
 .play-btn {
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     width: 44px;
-    height: 43px;
+    height: 44px;
     border-radius: 50%;
     background: #83a17d;
-}
-
-.eclip-icon {
-    position: absolute;
-    left: -9px;
-    bottom: -8px;
 }
