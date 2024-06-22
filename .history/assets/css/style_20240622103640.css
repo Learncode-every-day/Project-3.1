@@ -54,14 +54,7 @@ button {
 }
 
 /* ===== Header ===== */
-.header {
-    position: sticky;
-    top: 0;
-}
-
 .header-top {
-    margin-top: 15px;
-    padding: 13px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,8 +77,6 @@ button {
 .navbar__link--active::before {
     position: absolute;
     content: "";
-    left: 2px;
-    bottom: -30px;
     width: 16px;
     height: 2px;
     background: var(--bg-color);
@@ -104,16 +95,4 @@ button {
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.56;
-}
-
-.separate-line {
-    margin-top: -1px;
-    width: 100%;
-    height: 1px;
-    background: linear-gradient(
-        90deg,
-        #fff 0%,
-        #dddcdc 51.09%,
-        rgba(212, 212, 212, 0) 99.68%
-    );
 }
