@@ -312,18 +312,3 @@ h3.section-heading {
     font-weight: 600;
     letter-spacing: 0.19rem;
 }
-
-/* ===== Service ===== */
-.service {
-    margin-top: 106px;
-}
-
-.service-head__desc {
-    margin-left: 46px;
-}
-
-.service-head__desc::before {
-    width: 25px;
-    height: 1px;
-    background: var(--primary-color);
-}

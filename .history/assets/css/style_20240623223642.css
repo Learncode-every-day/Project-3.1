@@ -322,8 +322,7 @@ h3.section-heading {
     margin-left: 46px;
 }
 
-.service-head__desc::before {
+.service-head__desc::after {
     width: 25px;
     height: 1px;
-    background: var(--primary-color);
 }

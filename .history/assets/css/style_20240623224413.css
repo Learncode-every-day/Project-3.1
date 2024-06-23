@@ -323,7 +323,7 @@ h3.section-heading {
 }
 
 .service-head__desc::before {
+    background: var(--primary-color);
     width: 25px;
     height: 1px;
-    background: var(--primary-color);
 }

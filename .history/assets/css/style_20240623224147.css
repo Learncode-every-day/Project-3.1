@@ -319,11 +319,14 @@ h3.section-heading {
 }
 
 .service-head__desc {
+    position: relative;
     margin-left: 46px;
 }
 
-.service-head__desc::before {
+.service-head__desc::after {
+    display: block;
+    position: absolute;
+    background: var(--primary-color);
     width: 25px;
     height: 1px;
-    background: var(--primary-color);
 }

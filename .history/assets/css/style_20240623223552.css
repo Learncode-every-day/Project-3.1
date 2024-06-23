@@ -319,11 +319,5 @@ h3.section-heading {
 }
 
 .service-head__desc {
-    margin-left: 46px;
-}
-
-.service-head__desc::before {
-    width: 25px;
-    height: 1px;
-    background: var(--primary-color);
+    margin-top: 46px;
 }
