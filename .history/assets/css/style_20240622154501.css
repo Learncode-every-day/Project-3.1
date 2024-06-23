@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #143c3c;
+    /* Màu thay thế */
+    --primary-color: #152427;
+    --desc-color: #7d8188;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Public Sans";
+}
+
+/* ===== Common ===== */
+a {
+    text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.container {
+    width: 1140px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.section-heading {
+    color: var(--primary-color);
+    font-family: Poppins;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.24; /* 123.81% */
+}
+
+.section-desc {
+    color: var(--desc-color);
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71; /* 171.429% */
+}
+
+/* ===== Header ===== */
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.header-top {
+    margin-top: 15px;
+    padding: 13px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+    min-width: 322px;
+    justify-content: space-between;
+}
+
+.navbar__link {
+    position: relative;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56; /* 155.556% */
+}
+
+.navbar__link--active::before {
+    position: absolute;
+    content: "";
+    left: 2px;
+    bottom: -30px;
+    width: 16px;
+    height: 2px;
+    background: var(--bg-color);
+}
+
+.header-action {
+    width: 173px;
+    height: 57px;
+    border-radius: 40px;
+    border: 1.5px solid var(--primary-color);
+    background: var(--bg-color);
+}
+
+.header-action__text {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+}
+
+.separate-line {
+    margin-top: -1px;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        #fff 0%,
+        #dddcdc 51.09%,
+        rgba(212, 212, 212, 0) 99.68%
+    );
+}
+
+/* ===== Header ===== */
+.hero__content {
+    width: 35%;
+}
+
+.hero__heading {
+    margin-top: 103px;
+    color: var(--primary-color);
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1.2; /* 120% */
+}
+
+.hero__desc {
+    margin-top: 20px;
+    color: #575d5e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56; /* 155.556% */
+}
+
+.hero__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
