@@ -257,13 +257,13 @@ button {
     background: #e2eddf;
     height: 201px;
     margin-top: 207px;
-    padding: 0 120px;
+    padding: 0 110px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.brand__info {
+.brand__info .brand__name {
     display: flex;
     align-items: center;
 }
@@ -276,7 +276,6 @@ button {
 
 .brand__name {
     color: var(--bg-color);
-    transition: 2s;
 }
 
 .brand__info:first-child .brand__name {
@@ -302,5 +301,5 @@ button {
 .brand__info:last-child .brand__name {
     font-size: 1.9rem;
     font-weight: 600;
-    letter-spacing: 0.19rem;
+    letter-spacing: 0.2rem;
 }

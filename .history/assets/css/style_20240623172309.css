@@ -257,7 +257,7 @@ button {
     background: #e2eddf;
     height: 201px;
     margin-top: 207px;
-    padding: 0 120px;
+    padding: 0 121px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -276,31 +276,19 @@ button {
 
 .brand__name {
     color: var(--bg-color);
-    transition: 2s;
 }
 
-.brand__info:first-child .brand__name {
+.brand__name:first-child {
     font-size: 3.1rem;
     font-weight: 500;
 }
 
-.brand__info:nth-child(2) .brand__name {
+.brand__name:nth-child(2) {
     font-size: 3.2rem;
     font-weight: 600;
 }
 
-.brand__info:nth-child(3) .brand__name {
+.brand__name:nth-child(3) {
     color: #163c35;
     font-size: 2.6rem;
-}
-
-.brand__info:nth-child(4) .brand__name {
-    font-family: "Sonsie One";
-    font-size: 2.3rem;
-}
-
-.brand__info:last-child .brand__name {
-    font-size: 1.9rem;
-    font-weight: 600;
-    letter-spacing: 0.19rem;
 }
