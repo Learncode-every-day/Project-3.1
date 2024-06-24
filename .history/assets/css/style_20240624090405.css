@@ -388,7 +388,6 @@ h3.section-heading {
 
 .service__item:hover {
     transform: translateY(-10px);
-    border-radius: 20px;
     box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
 }
 

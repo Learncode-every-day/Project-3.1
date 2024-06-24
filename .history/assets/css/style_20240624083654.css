@@ -332,7 +332,7 @@ h3.section-heading {
     position: absolute;
     content: "";
     top: 9px;
-    left: -45px;
+    left: -46px;
     width: 25px;
     height: 1px;
     background: var(--primary-color);
@@ -357,7 +357,6 @@ h3.section-heading {
 .service-action {
     display: flex;
     column-gap: 17px;
-    margin: 62px 73px 0 0;
 }
 
 .service-icon {
@@ -379,46 +378,4 @@ h3.section-heading {
 .service-icon:hover {
     background: var(--bg-color);
     color: #fff;
-}
-
-/* === Service item === */
-.service__item {
-    transition: 0.25s;
-}
-
-.service__item:hover {
-    transform: translateY(-10px);
-    border-radius: 20px;
-    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
-}
-
-.service__row {
-    margin-top: 76px;
-    display: flex;
-    column-gap: 16px;
-}
-
-.service__img {
-    display: block;
-    width: 370px;
-    height: 318px;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-}
-
-.service__info {
-    padding: 24px 16px;
-    background: #fff;
-    border-radius: 0 0 20px 20px;
-    overflow: hidden;
-}
-
-.service__desc {
-    width: 268px;
-    margin-top: 18px;
-    color: var(--desc-color);
-    font-family: Poppins;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.71; /* 171.429% */
 }

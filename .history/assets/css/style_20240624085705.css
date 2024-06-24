@@ -382,16 +382,6 @@ h3.section-heading {
 }
 
 /* === Service item === */
-.service__item {
-    transition: 0.25s;
-}
-
-.service__item:hover {
-    transform: translateY(-10px);
-    border-radius: 20px;
-    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
-}
-
 .service__row {
     margin-top: 76px;
     display: flex;
@@ -410,7 +400,6 @@ h3.section-heading {
     padding: 24px 16px;
     background: #fff;
     border-radius: 0 0 20px 20px;
-    overflow: hidden;
 }
 
 .service__desc {
