@@ -557,8 +557,7 @@ h3.section-heading {
     margin-top: 5px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-shrink: 0;
+    justify-content: center;
 }
 
 .introduce-result__group-avatar span {
@@ -574,7 +573,7 @@ h3.section-heading {
     height: 16px;
     object-fit: cover;
     border-radius: 50%;
-    margin-left: -11px;
+    margin-left: -6px;
     border: 1px solid #fff;
 }
 

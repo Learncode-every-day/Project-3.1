@@ -555,27 +555,6 @@ h3.section-heading {
 
 .introduce-result__group-avatar {
     margin-top: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-shrink: 0;
-}
-
-.introduce-result__group-avatar span {
-    margin-right: 30px;
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4; /* 140% */
-}
-
-.introduce-result__avatar {
-    width: 16px;
-    height: 16px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-left: -11px;
-    border: 1px solid #fff;
 }
 
 /* === Introduce content === */

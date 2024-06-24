@@ -434,7 +434,6 @@ h3.section-heading {
 
 .introduce-vector {
     position: relative;
-    z-index: 1;
 }
 
 .introduce-vector__left {
@@ -444,13 +443,8 @@ h3.section-heading {
     bottom: 132px;
 }
 
-/* === Introduce Media === */
 .introduce__media {
     display: flex;
-}
-
-.introduce__communication {
-    position: relative;
 }
 
 .introduce__img {
@@ -462,134 +456,21 @@ h3.section-heading {
     margin-right: 21px;
 }
 
-.introduce__img:first-child {
-    transform: translateY(77px);
-}
-
 .introduce__img:last-child {
     margin-right: 0;
 }
 
-.introduce-result {
-    padding: 19px 23px 11px;
-    position: absolute;
-    width: 143px;
-    height: 144px;
-    right: -6px;
-    top: 418px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 7px 54px 0px rgba(154, 154, 154, 0.25);
-}
-
-.introduce-result__heading {
-    color: var(--primary-color);
-    font-size: 1.4rem;
-    font-weight: 600;
-}
-
-.introduce-result__desc {
-    margin-top: 6px;
-    color: #575d5e;
-    font-size: 1rem;
-    line-height: 1.4; /* 140% */
-}
-
-.introduce-result__data {
-    margin-top: 10px;
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4; /* 140% */
-}
-
-.introduce-result__display-screen {
-    position: relative;
-    margin-top: 3px;
-    width: 96px;
-    height: 2px;
-    border-radius: 10px;
-    background: #eaeaea;
-}
-
-.introduce-result__display-screen::after {
-    position: absolute;
-    content: "";
-    width: 40px;
-    height: 2px;
-    border-radius: 10px;
-    background: #83a17d;
-}
-
-.introduce-result__loading {
-    margin-top: 3px;
-    position: absolute;
-    content: "";
-    right: 23px;
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4; /* 140% */
-}
-
-.introduce-result__camera {
-    margin-top: 20px;
-}
-
-.circle-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    background: #eaeaea;
-}
-
-.circle-2 {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--bg-color);
-}
-
-.introduce-result__group-avatar {
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-shrink: 0;
-}
-
-.introduce-result__group-avatar span {
-    margin-right: 30px;
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4; /* 140% */
-}
-
-.introduce-result__avatar {
-    width: 16px;
-    height: 16px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-left: -11px;
-    border: 1px solid #fff;
-}
-
-/* === Introduce content === */
 .introduce__heading {
     width: 483px;
 }
 
+/* === Introduce content === */
 .introduce__content {
     margin-left: 64px;
 }
 
 .introduce-head__desc {
     position: relative;
-    margin-left: 46px;
 }
 
 .introduce-head__desc::after {
@@ -598,58 +479,4 @@ h3.section-heading {
     background: var(--primary-color);
     width: 25px;
     height: 1px;
-    top: 9px;
-    left: -45px;
-}
-
-.introduce__heading {
-    margin-top: 20px;
-}
-
-.introduce__desc {
-    margin: 11px 0 36px;
-    color: var(--desc-color);
-    font-family: Poppins;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.63; /* 162.5% */
-}
-
-.introduce-data {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.introduce-data:last-child {
-    margin-top: 58px;
-}
-
-.introduce-data::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    right: 0;
-    top: 64px;
-    height: 1px;
-    background: #83a17d;
-}
-
-.introduce-data__number {
-    color: var(--primary-color);
-    font-family: Poppins;
-    font-size: 4.2rem;
-    font-weight: 600;
-    line-height: 1.24; /* 123.81% */
-}
-
-.introduce-data__desc {
-    width: 364px;
-    margin-left: 24px;
-    color: var(--desc-color);
-    font-family: Poppins;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.71; /* 171.429% */
 }
