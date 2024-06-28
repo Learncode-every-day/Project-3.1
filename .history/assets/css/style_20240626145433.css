@@ -745,11 +745,10 @@ h3.section-heading {
 .features {
     margin-top: 148px;
     background: var(--bg-color);
-    padding-bottom: 63px;
 }
 
 .features__inner {
-    padding-top: 116px;
+    padding: 116px 0 63px;
 }
 
 .fetures-top {
@@ -807,22 +806,18 @@ h3.section-heading {
     margin-top: 72px;
 }
 
-.fetures-video {
+.features__video {
     position: relative;
-    height: 554px;
+    height: 544px;
     object-fit: cover;
 }
 
 #myVideo1 {
     width: 100%;
-    height: 554px;
 }
 
 .features-play {
     position: absolute;
-    top: 213px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 118px;
     height: 118px;
     border-radius: 50%;

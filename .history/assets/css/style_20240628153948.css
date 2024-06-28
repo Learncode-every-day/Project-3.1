@@ -745,7 +745,7 @@ h3.section-heading {
 .features {
     margin-top: 148px;
     background: var(--bg-color);
-    padding-bottom: 63px;
+    height: 889px;
 }
 
 .features__inner {
@@ -809,7 +809,7 @@ h3.section-heading {
 
 .fetures-video {
     position: relative;
-    height: 554px;
+    height: 544px;
     object-fit: cover;
 }
 
