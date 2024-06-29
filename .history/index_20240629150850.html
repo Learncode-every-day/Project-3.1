@@ -95,7 +95,7 @@
                 <!-- Header top -->
                 <div class="header-top">
                     <!-- Logo -->
-                    <a href="#">
+                    <a href="#!">
                         <img src="./assets/icons/logo.svg" alt="Modulars" />
                     </a>
 
@@ -171,7 +171,7 @@
                                         <img
                                             src="./assets/icons/play.svg"
                                             alt="Play button"
-                                            class="play__icon"
+                                            class="play-icon"
                                         />
                                     </div>
                                     <span class="hero-action__desc"
@@ -587,7 +587,11 @@
 
                         <div class="features-bottom">
                             <div class="fetures-video">
-                                <video id="myVideo1" class="features__source">
+                                <video
+                                    id="myVideo1"
+                                    class="features__source"
+                                    autoplay
+                                >
                                     <source src="./assets/videos/video-1.mp4" />
                                     Your browser does not support the video tag.
                                 </video>
@@ -611,76 +615,57 @@
             <!-- Support -->
             <section class="support">
                 <div class="container">
-                    <div class="support__inner">
-                        <h2 class="section-heading support__heading">
-                            Share the features that help your customers
-                        </h2>
-                        <p class="suppport-desc">
-                            You already know that the customer experience
-                            doesn't end with a sale — it's an ongoing work in
-                            progress that companies should be constantly seeking
-                            to improve and iterate on.
-                        </p>
-                        <ul class="support-list">
-                            <!-- Support Item 1 -->
-                            <li class="support-item">
-                                <a href="#!" class="support__link">
-                                    <img
-                                        src="./assets/icons/blog.svg"
-                                        alt=""
-                                        class="support-item__img"
-                                    />
-                                    <h3 class="support-item__heading">Blog</h3>
-                                    <p class="support-item__desc">
-                                        We’ve researched numerous agencies and
-                                        complied a list of digital marketing
-                                        agency blogs you should read to stay
-                                        ahead of your rivals and succeed online!
-                                    </p>
-                                </a>
-                            </li>
-
-                            <!-- Support Item 2 -->
-                            <li class="support-item">
-                                <a href="#!" class="support__link">
-                                    <img
-                                        src="./assets/icons/documention.svg"
-                                        alt=""
-                                        class="support-item__img"
-                                    />
-                                    <h3 class="support-item__heading">
-                                        Documention
-                                    </h3>
-                                    <p class="support-item__desc">
-                                        In this article, we discuss the
-                                        different types of documentation, what
-                                        makes for great technical documentation,
-                                        and provide examples.
-                                    </p>
-                                </a>
-                            </li>
-
-                            <!-- Support Item 3 -->
-                            <li class="support-item">
-                                <a href="#!" class="support__link">
-                                    <img
-                                        src="./assets/icons/customers.svg"
-                                        alt=""
-                                        class="support-item__img"
-                                    />
-                                    <h3 class="support-item__heading">
-                                        Customers
-                                    </h3>
-                                    <p class="support-item__desc">
-                                        Your customers have high expectations —
-                                        and if your business can't meet them,
-                                        they're going to leave you for your
-                                        competitors.
-                                    </p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <h2 class="section-heading">
+                        Share the features that help your customers
+                    </h2>
+                    <p class="suppport-desc">
+                        You already know that the customer experience doesn't
+                        end with a sale — it's an ongoing work in progress that
+                        companies should be constantly seeking to improve and
+                        iterate on.
+                    </p>
+                    <ul class="support-list">
+                        <li class="support-item">
+                            <img
+                                src="./assets/icons/blog.svg"
+                                alt=""
+                                class="support-item__img"
+                            />
+                            <h3 class="support-item__heading">Blog</h3>
+                            <p class="support-item__desc">
+                                We’ve researched numerous agencies and complied
+                                a list of digital marketing agency blogs you
+                                should read to stay ahead of your rivals and
+                                succeed online!
+                            </p>
+                        </li>
+                        <li class="support-item">
+                            <img
+                                src="./assets/icons/documention.svg"
+                                alt=""
+                                class="support-item__img"
+                            />
+                            <h3 class="support-item__heading">Documention</h3>
+                            <p class="support-item__desc">
+                                In this article, we discuss the different types
+                                of documentation, what makes for great technical
+                                documentation, and provide examples.
+                            </p>
+                        </li>
+                        <li class="support-item">
+                            <img
+                                src="./assets/icons/customers.svg"
+                                alt=""
+                                class="support-item__img"
+                            />
+                            <h3 class="support-item__heading">Customers</h3>
+                            <p class="support-item__desc">
+                                Your customers have high expectations — and if
+                                your business can't meet them, they're going to
+                                leave you for your competitors.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>

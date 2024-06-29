@@ -6,7 +6,7 @@ function playPause() {
         playBtn.style.opacity = 0;
         myVideo1.play();
     } else {
-        playBtn.style.opacity = 0.7;
+        playBtn.style.opacity = 1;
         myVideo1.pause();
     }
 }

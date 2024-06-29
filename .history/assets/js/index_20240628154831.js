@@ -5,8 +5,5 @@ function playPause() {
     if (myVideo1.paused) {
         playBtn.style.opacity = 0;
         myVideo1.play();
-    } else {
-        playBtn.style.opacity = 0.7;
-        myVideo1.pause();
-    }
+    } else myVideo1.pause();
 }
